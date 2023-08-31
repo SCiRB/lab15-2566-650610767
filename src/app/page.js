@@ -138,7 +138,6 @@ export default function Home() {
             />
             <PasswordInput
               label="Confirm Password"
-              description="Password does not match"
               {...form.getInputProps("confirmPassword")}
             />
 
